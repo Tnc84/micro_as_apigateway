@@ -6,6 +6,7 @@ spring:
       discovery:
         locator:
           enabled: true
+          lowerCaseServiceId: true
   application:
     name: api-gateway-as
   config:
